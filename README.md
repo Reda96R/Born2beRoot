@@ -175,5 +175,5 @@ there are many types of proxies:
 
 - Reverse proxies: These are used to receive client requests and forward them to one or more servers. Reverse proxies are often used to balance load among multiple servers, improve security by hiding the origin server, and cache static content for faster access.
 - Forward proxies: These are used by clients to access servers and resources on behalf of the client. Forward proxies are often used to access websites or servers that are blocked in a particular region, or to mask the client's IP address to protect their privacy.
-- Transparent proxiest(the one that I did): These are used to intercept and modify client requests without the client's knowledge. Transparent proxies are often used to filter or censor internet content, or to redirect client requests to different servers.
+- Transparent proxiest(the one I did): These are used to intercept and modify client requests without the client's knowledge. Transparent proxies are often used to filter or censor internet content, or to redirect client requests to different servers.
 - Anonymous proxies: These are used to mask the client's IP address and protect their identity and location. Anonymous proxies do not reveal the client's IP address to the server.
