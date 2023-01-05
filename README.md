@@ -177,3 +177,17 @@ there are many types of proxies:
 - Forward proxies: These are used by clients to access servers and resources on behalf of the client. Forward proxies are often used to access websites or servers that are blocked in a particular region, or to mask the client's IP address to protect their privacy.
 - Transparent proxiest(the one I did): These are used to intercept and modify client requests without the client's knowledge. Transparent proxies are often used to filter or censor internet content, or to redirect client requests to different servers.
 - Anonymous proxies: These are used to mask the client's IP address and protect their identity and location. Anonymous proxies do not reveal the client's IP address to the server.
+
+## Resources:
+
+[What is the difference between dpkg and aptitude/apt-get? - Ask Ubuntu](https://askubuntu.com/questions/309113/what-is-the-difference-between-dpkg-and-aptitude-apt-get)
+
+[https://www.youtube.com/watch?v=UBVVq-xz5i0&t=392s](https://www.youtube.com/watch?v=UBVVq-xz5i0&t=392s)
+
+[https://helpdeskgeek.com/linux-tips/what-is-sudo-in-linux-and-how-to-use-it/](https://helpdeskgeek.com/linux-tips/what-is-sudo-in-linux-and-how-to-use-it/)
+
+[https://www.youtube.com/watch?v=g2fT-g9PX9o](https://www.youtube.com/watch?v=g2fT-g9PX9o)
+
+[https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_web_server](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_web_server)
+
+[https://www.fortinet.com/resources/cyberglossary/proxy-server](https://www.fortinet.com/resources/cyberglossary/proxy-server)
