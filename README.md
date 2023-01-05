@@ -1,6 +1,6 @@
 ## What is a VM?
 
-A virtual machine (VM) is a virtual environment that functions as a virtual computer system with its own CPU, memory, network interface, and storage, created on a physical hardware system, the resources of the machine are managed by an **hypervisor** which is a software that isolates the hypervisor’s operating system and resources from the VM and enables the creation and management of those VMs.
+A virtual machine (VM) is a virtual environment that functions as a virtual computer system with its own CPU, memory, network interface, and storage, created on a physical hardware system, the resources of the machine are managed by a **hypervisor** which is a software that isolates the hypervisor’s operating system and resources from the VM and enables the creation and management of those VMs.
 
 there are two main types of hypervisors:
 
@@ -17,25 +17,25 @@ there are two main types of hypervisors:
 
 - it has a large and active community of users and developers, which gives a lot of online resources and support.
 - it is user-friendly and easy to use.
-- the package management is easy to install, upgrade, and remove software packages.
+- the package management, it is easy to install, upgrade, and remove software packages.
 - it is very stable and reliable.
 
 ## Rocky vs Debian:
 
 ### Debian:
 
-it is a free open-source Os, developed and maintained by a community of volunteers, it is made mainly for individuals and personal use, it is known for its stability and reliability.
+it is a free open-source OS, developed and maintained by a community of volunteers, it is made mainly for individuals and personal use, it is known for its stability and reliability.
 
 ### Rocky:
 
-it is an open-source enterprise OS, and it is a new replacement for CentOS, Rocky is based on Red Hat Enteprise Linux (RHEL), which is a comercial Linux distribution, it is often used in enterprise environment, and known for its security and performance. but it doesn’t run on as many architectures, unlike debian that supports many packages.
+it is an open-source enterprise OS, and it is a new replacement for CentOS, Rocky is based on Red Hat Enterprise Linux (RHEL), which is a commercial Linux distribution, it is often used in enterprise environment, and known for its security and performance. but it doesn’t run on as many architectures, unlike Debian that supports many packages.
 
 - Package management: Debian uses the Advanced Packaging Tool (APT) for package management, while Rocky uses the Yellowdog Updater Modified (YUM) package manager.
 - Supported architectures: Debian supports a wider range of architectures, including ARM, PowerPC, and MIPS, while Rocky only supports x86 and x86-64 architectures.
 
 ## Interest of VMs:
 
-using a virtual machine, allows us to run more than one operating system on one device, which gives us an independent environment for experiments without affecting the main computer, also ditributing the resources of a single computer to multiple people, also it lowers the costs of electrecity and maintenance, and in the case of a failure, VMs can easily be transferred to another working machine.
+using a virtual machine, allows us to run more than one operating system on one device, which gives us an independent environment for experiments without affecting the main computer, also distributing the resources of a single computer to multiple people, also it lowers the costs of electricity and maintenance, and in the case of a failure, VMs can easily be transferred to another working machine.
 
 ## Apt vs Aptitude:
 
@@ -59,7 +59,7 @@ LVM functions by layering abstractions on top of physical storage devices. The b
 
 - **Physical Volumes**:
     
-    The LVM utility prefix for physical volumes is `pv`. This physicallyl blocks devices or other disk-like devices (for example, other devices created by device mapper, like RAID arrays) and are used by LVM as the raw building material for higher levels of abstraction. Physical volumes are regular storage devices. LVM writes a header to the device to allocate it for management.
+    The LVM utility prefix for physical volumes is `pv`. This physically blocks devices or other disk-like devices (for example, other devices created by device mapper, like RAID arrays) and are used by LVM as the raw building material for higher levels of abstraction. Physical volumes are regular storage devices. LVM writes a header to the device to allocate it for management.
     
 - **Volume Groups**:
     
@@ -86,7 +86,9 @@ In order for a given user to execute a command as the superuser (root) or anothe
 
 the first one is to log in as the root user permanently, but anyone else who can access the computer can accuire the permissions,
 
-the second way is to use the sudo command which is a Unix-based command that stands for “super user do” that elevates your permissions for a short time to execute the command that you need.
+the second is to use the sudo command which is a Unix-based command that stands for “super user do” that elevates your permissions for a short time to execute the command that you need.
+
+### how does sudo work?
 
 ### what about the su ?
 
@@ -102,22 +104,27 @@ UFW (Uncomplicated Firewall) is a frontend for the **`iptables`** utility on Lin
     
     it is a command-line utility that allows you to configure the firewall on a Linux system (Netfilter). It is used to set up, maintain, and inspect the tables of IP packet filter rules in the Linux kernel.
     
-    Using **`iptables`**, you can specify rules to allow or block incoming or outgoing network traffic based on various criteria, such as the source or destination IP address, the protocol, or the port number. You can also use **`iptables`** to NAT (Network Address Translation) packets, redirect traffic, or log dropped packets.
+    Using **`iptables`**, you can specify rules to allow or block incoming or outgoing network traffic based on various criterias, such as the source or destination IP address, the protocol, or the port number. You can also use **`iptables`** to NAT (Network Address Translation) packets, redirect traffic, or log dropped packets.
     
 - **ports:**
     
-    A port is a logical connection that is used by programs and services to exchange information, every port has it’s own unique number that will be used to identifie it, itranges from 0 to 65535, for example:
+    A port is a logical connection that is used by programs and services to exchange informations, every port has it’s own unique number that will be used to identifie it, it ranges from 0 to 65535, for example:
     
     - 80, 443 is for Web pages (HTTP, HTTPS)
     - 21, FTP (file transfer protocol)
     - 25, Email (SMTP)
     
-    the port number is always associated with an Ip address, which is an identifier for a computer or device in a given network, the port numbr and the IP adress work together to exchange data on an address, and they form a socket.
+    the port number is always associated with an IP address, which is an identifier for a computer or device in a given network, the port number and the IP adress work together to exchange data on an address, and together they form what’s called a socket.
+    
+- **protocol**
+    
+    A protocol defines the format and the order of messages exchanged between two or more
+    communicating entities, as well as the actions taken on the transmission and/or receipt of a message or other events.
     
 
 ## SSH(secure shell):
 
-SSH or **Secure Shell** is a **remote administration protocol that allows users to control and modify their servers** over the Internet thanks to an authentication mechanism. SSH was created as an alternative to Telnet, which does not encrypt the information that is sent.
+SSH or **Secure Shell** is a **remote administration protocol that allows users to control and modify their servers over the Internet** thanks to an authentication mechanism. SSH was created as an alternative to Telnet, which does not encrypt the information that is sent.
 
 There are three different techniques that SSH uses to encrypt:
 
