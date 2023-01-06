@@ -156,17 +156,7 @@ WordPress is a free and open-source content management system written in hyperte
      It can refer to hardware or software, or both of them working together.
         - On the hardware side, a web server is a computer that stores web server software and a website's component files (for example, HTML documents, images, CSS stylesheets, and JavaScript files).
         - On the software side, a web server includes several parts that control how web users access hosted files. At a minimum, this is an HTTP server. which is a software that understands URLs (web addresses) and HTTP (the protocol your browser uses to view webpages).
-
-to check manuplations on Mariadb:
-
-1 - SHOW DTABASES;
-
-2 - use mydatabase;
-
-3 - SHOW TABLES;
-
-4 - SELECT * FROM wp_posts;
-
+       
 # Proxy:
 
 it is a server or a computer system that acts as a gateaway between users and the internet, Proxies are used to improve security, increase performance, and enable access to resources that may be restricted or blocked in certain regions.
